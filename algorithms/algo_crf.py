@@ -23,16 +23,16 @@ if (os.path.exists(file_path) == False) or (os.path.exists(file_path_eng) == Fal
                 with open(input_file, 'rb') as infile:
                     outfile.write(infile.read())
 
-    join_files(join_path+'\\crf_model.chaine',
-           join_path+'\\model_crf.chaine.part0',
-           join_path+'\\model_crf.chaine.part1',
-           join_path+'\\model_crf.chaine.part2',
-           join_path+'\\model_crf.chaine.part3',
-           join_path+'\\model_crf.chaine.part4')
+    join_files(join_path+'/crf_model.chaine',
+           join_path+'/model_crf.chaine.part0',
+           join_path+'/model_crf.chaine.part1',
+           join_path+'/model_crf.chaine.part2',
+           join_path+'/model_crf.chaine.part3',
+           join_path+'/model_crf.chaine.part4')
 
-    join_files(join_path+'\\eng_crf_model.chaine',
-           join_path+'\\eng_model_crf.chaine.part0',
-           join_path+'\\eng_model_crf.chaine.part1')
+    join_files(join_path+'/eng_crf_model.chaine',
+           join_path+'/eng_model_crf.chaine.part0',
+           join_path+'/eng_model_crf.chaine.part1')
 
     print('README.md')
     print('(Note: The files *.chaine.part0-4 in the current directory are no longer needed and can be deleted.)')
